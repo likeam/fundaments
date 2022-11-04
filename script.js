@@ -21,8 +21,20 @@
 // console.log(appleJuices);
 
 
-const calcAge = function(birthYear){
-    return 2037 - birthYear;
+// const calcAge = function(birthYear){
+//     return 2037 - birthYear;
+// }
+
+// const calcAge = birthYear => 2037 - birthYear;
+// const age = calcAge(1981);
+// console.log(age);
+
+const yearUntilRetirement = (birthYear, firstName) => {
+    const age = 2022 - birthYear;
+    const retirement = 65 - age;
+
+    return `${firstName} retires in ${retirement} years `;
 }
 
-birthYear => 2037 - birthYear;
+console.log(yearUntilRetirement(1981, 'A Rehman'));
+console.log(yearUntilRetirement(1986, 'M S'));
