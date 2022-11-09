@@ -25,18 +25,31 @@
 //     return 2037 - birthYear;
 // }
 
-const calcAge = birthYear => 2037 - birthYear;
+// const calcAge = birthYear => 2037 - birthYear;
 
 
-const yearUntilRetirement = (birthYear, firstName) => {
-    const age =  calcAge(birthYear);
-    const retirement = 65 - age;
-    if(retirement > 0){
-        return retirement;
-    }
+// const yearUntilRetirement = (birthYear, firstName) => {
+//     const age =  calcAge(birthYear);
+//     const retirement = 65 - age;
+//     if(retirement > 0){
+//         return retirement;
+//     }
 
-    // return `${firstName} retires in ${retirement} years `;
+//     // return `${firstName} retires in ${retirement} years `;
+// }
+
+// console.log(yearUntilRetirement(1981, 'A Rehman'));
+// console.log(yearUntilRetirement(1986, 'M S'));
+
+const friends = ['Michael', 'Stven', 'Peter'];
+friends.push('Joy');
+friends.push('Roy');
+friends.push('Alex');
+console.log(friends);
+//
+friends.pop();
+
+console.log(friends);
+if(friends.includes('Michael')){
+    console.log('You have frieds called Machael');
 }
-
-console.log(yearUntilRetirement(1981, 'A Rehman'));
-console.log(yearUntilRetirement(1986, 'M S'));
