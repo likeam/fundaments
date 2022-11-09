@@ -41,15 +41,47 @@
 // console.log(yearUntilRetirement(1981, 'A Rehman'));
 // console.log(yearUntilRetirement(1986, 'M S'));
 
-const friends = ['Michael', 'Stven', 'Peter'];
-friends.push('Joy');
-friends.push('Roy');
-friends.push('Alex');
-console.log(friends);
-//
-friends.pop();
 
-console.log(friends);
-if(friends.includes('Michael')){
-    console.log('You have frieds called Machael');
-}
+
+// ARRYS
+
+
+/////////////////////
+// const friends = ['Michael', 'Stven', 'Peter'];
+
+// friends.push('Joy');
+// friends.push('Roy');
+// friends.push('Alex');
+// console.log(friends);
+// //
+// friends.pop();
+
+// console.log(friends);
+// if(friends.includes('Michael')){
+//     console.log('You have frieds called Machael');
+// }
+
+
+//OBJECTS
+
+
+////////////
+
+
+const arArry = [
+    'Abdul',
+    'Rehman',
+    2022 - 1982,
+    'Engineer',
+    ['Azhar', 'Bilal', 'Hameed']
+];
+
+const ar = {
+    firstName: 'Abdul',
+    lastName: 'Rehman',
+    age: 2022 - 1982,
+    job : 'Engineer',
+    frinds : ['Azhar', 'Bilal', 'Hameed']
+};
+
+console.log(ar);
