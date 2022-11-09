@@ -29,10 +29,13 @@ const calcAge = birthYear => 2037 - birthYear;
 
 
 const yearUntilRetirement = (birthYear, firstName) => {
-    const age = 2022 - calcAge(birthYear);
+    const age =  calcAge(birthYear);
     const retirement = 65 - age;
+    if(retirement > 0){
+        return retirement;
+    }
 
-    return `${firstName} retires in ${retirement} years `;
+    // return `${firstName} retires in ${retirement} years `;
 }
 
 console.log(yearUntilRetirement(1981, 'A Rehman'));
