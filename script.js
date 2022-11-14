@@ -87,5 +87,5 @@ const ar = {
 console.log(ar);
 console.log(ar.lastName);
 
-const namekey = 'Nam';
+const namekey = 'Na';
 console.log(ar['first' + namekey]);
