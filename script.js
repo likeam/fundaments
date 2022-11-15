@@ -80,12 +80,12 @@ const ar = {
     firstName: 'Abdul',
     lastName: 'Rehman',
     age: 2022 - 1982,
-    job : 'Engineer',
-    frinds : ['Azhar', 'Bilal', 'Hameed']
+    job: 'Engineer',
+    frinds: ['Azhar', 'Bilal', 'Hameed']
 };
 
 console.log(ar);
 console.log(ar.lastName);
 
-const namekey = 'Na';
+const namekey = 'Name';
 console.log(ar['first' + namekey]);
