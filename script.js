@@ -80,7 +80,7 @@ const ar = {
     firstName: 'Abdul',
     lastName: 'Rehman',
     age: 2022 - 1982,
-    job: 'Engineer',
+    job: 'Engineers',
     frinds: ['Azhar', 'Bilal', 'Hameed']
 };
 
