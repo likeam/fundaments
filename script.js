@@ -68,24 +68,28 @@
 ////////////
 
 
-const arArry = [
-    'Abdul',
-    'Rehman',
-    2022 - 1982,
-    'Engineer',
-    ['Azhar', 'Bilal', 'Hameed']
-];
+// const arArry = [
+//     'Abdul',
+//     'Rehman',
+//     2022 - 1982,
+//     'Engineer',
+//     ['Azhar', 'Bilal', 'Hameed']
+// ];
 
-const ar = {
-    firstName: 'Abdul',
-    lastName: 'Rehman',
-    age: 2022 - 1982,
-    job: 'Engineer',
-    frinds: ['Azhar', 'Bilal', 'Hameed']
-};
+// const ar = {
+//     firstName: 'Abdul',
+//     lastName: 'Rehman',
+//     age: 2022 - 1982,
+//     job: 'Engineer',
+//     frinds: ['Azhar', 'Bilal', 'Hameed']
+// };
 
-console.log(ar);
-console.log(ar.lastName);
+// console.log(ar);
+// console.log(ar.lastName);
 
-const namekey = 'Name';
-console.log(ar['first' + namekey]);
+// const namekey = 'Name';
+// console.log(ar['first' + namekey]);
+
+for(let i = 1; i>100; i++ ){
+    console.log( ` the no ${i} is odd`);
+}
