@@ -68,7 +68,17 @@
 ////////////
 
 
-// const arArry = [
+// const ar = {
+    //     firstName: 'Abdul',
+    //     lastName: 'Rehman',
+    //     age: 2022 - 1982,
+    //     job: 'Engineer',
+    //     frinds: ['Azhar', 'Bilal', 'Hameed']
+    // };
+    
+
+
+// const ar = [
 //     'Abdul',
 //     'Rehman',
 //     2022 - 1982,
@@ -76,20 +86,24 @@
 //     ['Azhar', 'Bilal', 'Hameed']
 // ];
 
-// const ar = {
-//     firstName: 'Abdul',
-//     lastName: 'Rehman',
-//     age: 2022 - 1982,
-//     job: 'Engineer',
-//     frinds: ['Azhar', 'Bilal', 'Hameed']
-// };
+// for(let i = 0; i < ar.length; i++){
+//     console.log(ar[i], typeof ar[i]);
+// }
 
-// console.log(ar);
-// console.log(ar.lastName);
+// for(let outer = 1; outer < 5;  outer++){
+//     console.log(`---------Starting Chapter ${outer}`);
+//     for(let inner = 1; inner < 6; inner++){
+//         console.log(`Chapter No ${outer}----------- Lesson No ${inner}`);
+//     }
+// }
 
-// const namekey = 'Name';
-// console.log(ar['first' + namekey]);
+'use strict';
 
-for(let i = 1; i>100; i++ ){
-    console.log( ` the no ${i} is odd`);
-}
+const Person = function(firstName, birthTYear){
+
+    this.firstName = firstName;
+    this.birthTYear = birthTYear;
+};
+
+const ar = new Person('Abdul', 1982);
+console.log(ar);
